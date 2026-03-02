@@ -1,0 +1,57 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="150" y1="90" x2="1130" y2="550" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <filter id="shadow" x="120" y="60" width="1040" height="520" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#020617" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="150" y="90" width="980" height="460" rx="22" fill="url(#panel)" stroke="#334155" stroke-width="2"/>
+  </g>
+
+  <rect x="150" y="90" width="980" height="58" rx="22" fill="#1E293B"/>
+  <rect x="150" y="126" width="980" height="424" rx="0" fill="#0B1120"/>
+
+  <circle cx="190" cy="119" r="8" fill="#F87171"/>
+  <circle cx="216" cy="119" r="8" fill="#FBBF24"/>
+  <circle cx="242" cy="119" r="8" fill="#34D399"/>
+
+  <text x="280" y="126" fill="#CBD5E1" font-family="Menlo, Monaco, Consolas, monospace" font-size="22">codex-coding skill preview</text>
+
+  <text x="205" y="215" fill="#93C5FD" font-family="Menlo, Monaco, Consolas, monospace" font-size="26">$ agent zero</text>
+  <text x="390" y="215" fill="#E2E8F0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26">orchestrates the task</text>
+
+  <text x="205" y="265" fill="#34D399" font-family="Menlo, Monaco, Consolas, monospace" font-size="26">$ codex</text>
+  <text x="320" y="265" fill="#E2E8F0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26">handles the deeper coding work</text>
+
+  <text x="205" y="315" fill="#FBBF24" font-family="Menlo, Monaco, Consolas, monospace" font-size="26">$ verify</text>
+  <text x="332" y="315" fill="#E2E8F0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26">confirm before reporting success</text>
+
+  <rect x="205" y="375" width="250" height="64" rx="14" fill="#111827" stroke="#3B82F6"/>
+  <rect x="515" y="375" width="250" height="64" rx="14" fill="#111827" stroke="#10B981"/>
+  <rect x="825" y="375" width="250" height="64" rx="14" fill="#111827" stroke="#F59E0B"/>
+
+  <text x="286" y="414" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">Inspect</text>
+  <text x="611" y="414" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">Code</text>
+  <text x="907" y="414" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">Verify</text>
+
+  <path d="M455 407H505" stroke="#64748B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M765 407H815" stroke="#64748B" stroke-width="4" stroke-linecap="round"/>
+
+  <text x="205" y="495" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">
+    Terminal-first Codex workflow for Agent Zero
+  </text>
+  <text x="205" y="532" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">
+    Better prompts. Interactive follow-up. Explicit verification.
+  </text>
+</svg>

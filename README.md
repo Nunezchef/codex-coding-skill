@@ -4,6 +4,8 @@ Make [Agent Zero](https://github.com/agent0ai/agent-zero) use Codex CLI as a rea
 
 This repository packages a focused `SKILL.md` that teaches Agent Zero to route coding work through Codex in the terminal, keep the session interactive, and verify results instead of relying on a weak one-shot prompt.
 
+![Codex Coding Skill Preview](assets/codex-coding-skill-preview.svg)
+
 ## Why This Is Useful
 
 - Better repository-aware coding prompts
