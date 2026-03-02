@@ -12,6 +12,18 @@ This repository packages a focused `SKILL.md` that teaches Agent Zero to route c
 - Better verification before reporting success
 - A cleaner way to use Codex for real implementation work inside Agent Zero
 
+## Why This Makes Sense For Local Setups
+
+This skill is especially useful if you run Agent Zero locally.
+
+On smaller or resource-constrained machines, using a large local model for every coding task can get slow quickly. A more practical pattern is to let Agent Zero stay in the orchestrator role while Codex CLI handles the heavier coding work in the terminal.
+
+That keeps the workflow more usable on local hardware:
+
+- Agent Zero handles routing and task flow
+- Codex handles the deeper coding passes
+- You get stronger coding capability without needing a huge always-on model for every turn
+
 ## What It Does
 
 - Makes Codex CLI the default path for coding tasks
