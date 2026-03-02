@@ -1,8 +1,16 @@
 # Codex Coding Skill For Agent Zero
 
-Use Codex CLI as the default coding engine inside [Agent Zero](https://github.com/agent0ai/agent-zero).
+Make [Agent Zero](https://github.com/agent0ai/agent-zero) use Codex CLI as a real terminal-first coding engine.
 
-This repository packages a single `SKILL.md` that teaches Agent Zero to route all coding work through Codex in the terminal, instead of treating code tasks as ordinary prose tasks.
+This repository packages a focused `SKILL.md` that teaches Agent Zero to route coding work through Codex in the terminal, keep the session interactive, and verify results instead of relying on a weak one-shot prompt.
+
+## Why This Is Useful
+
+- Better repository-aware coding prompts
+- Stronger terminal-driven coding workflows
+- Clearer handling of interactive Codex confirmations
+- Better verification before reporting success
+- A cleaner way to use Codex for real implementation work inside Agent Zero
 
 ## What It Does
 
